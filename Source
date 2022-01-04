@@ -7,8 +7,7 @@ TextSize = 20,
 });
 local sound = Instance.new("Sound")
 sound.Name = "SoundEffect"
-sound.Volume = 10
-sound.Looped = false
+sound.Volume = 1
 sound.SoundId = "rbxassetid://537744814"
 sound.Parent = workspace
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.HubBar.ReportAbuseTab.Icon.Title.Text = "Dex Ware"
