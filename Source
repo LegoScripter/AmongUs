@@ -26,7 +26,7 @@ game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["ActionInputBindingMove Left"]:Destroy()
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["ActionInputBindingMove Right"]:Destroy()
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["PCGroupTitleCharacter Movement"]:Destroy()
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.JumpLabel.Text = "FE CAR (HAT IS OPTIONAL)"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.JumpLabel.Text = "FE CAR (HAT OPTIONAL)"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, 26)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
@@ -378,7 +378,7 @@ Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[DEXWARE]: Script Made By Nullware Fixed By Gelatek & LegoScripter (Me)!",
+Text = "[DEXWARE]: Fixed By Gelatek & LegoScripter (Me)!",
 Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
