@@ -5,6 +5,11 @@ Text = "[DEXWARE]: Whitelisted!",
 Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: All The Hats Will Be On Discord https://discord.gg/mgGqHrWWsD!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 local sound = Instance.new("Sound")
 sound.Name = "SoundEffect"
 sound.Volume = 1
