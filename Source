@@ -51,6 +51,11 @@ Title.Size = UDim2.new(0, 100, 0, 20)
 
 BT.MouseButton1Down:connect(function()
 sound:Play()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: Script Loaded!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 local Playr = game:GetService("Players")
 local Run = game:GetService("RunService")
 local Core = game:GetService("CoreGui")
@@ -68,22 +73,7 @@ getgenv().Nullware_ReanimateConfiguration = {
 	["Godmode"] = false --Toggles Godmode.
 }
 loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/8cd532018277ee9982433eea25a6c14f/raw/sewMjTpJvVBLR96L"))()
-wait()
-for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
-if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
-game:GetService("RunService").Heartbeat:connect(function()
-v.Velocity = Vector3.new(-30,0,0)
-end)
-end
-end
-wait()
-end
 LocalPlayer.Character.Humanoid.WalkSpeed=70 LocalPlayer.Character.Humanoid.JumpPower=0.0001 Float_Height="-1.03" AnimationId="129342287" local a=Instance.new("Animation") a.AnimationId="rbxassetid://"..AnimationId local a=LocalPlayer.Character.Humanoid:LoadAnimation(a) a:Play() a:AdjustSpeed(1) for a,a in pairs(LocalPlayer.Character:GetDescendants())do if a.ClassName=="Part"then a.CustomPhysicalProperties=PhysicalProperties.new(0,0,0)end end local a=1 G=game _=wait p=G:GetService("Players").LocalPlayer.Character p:FindFirstChild("Humanoid").HipHeight=Float_Height _(1.5) t=.4 for a=1,a do repeat p:FindFirstChild("Humanoid").HipHeight=Float_Height-n _(t) p:FindFirstChild("Humanoid").HipHeight=Float_Height+n _(t)until p:FindFirstChild("Humanoid").Health==0 end
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[DEXWARE]: Script Loaded!",
-Color = Color3.fromRGB(250, 250, 160),
-TextSize = 20,
-});
 end)
 
 local C1 = Cl:Clone()
@@ -111,6 +101,11 @@ BT1.Size = UDim2.new(0, 100, 0, 20)
 
 BT1.MouseButton1Down:connect(function()
 sound:Play()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: Script Loaded!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 local Playr = game:GetService("Players")
 local Run = game:GetService("RunService")
 local Core = game:GetService("CoreGui")
@@ -259,11 +254,6 @@ function swait(num)
 end
 
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/67N3GzPh"))()
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[DEXWARE]: Script Loaded!",
-Color = Color3.fromRGB(250, 250, 160),
-TextSize = 20,
-});
 end)
 
 
@@ -285,7 +275,11 @@ BT2.Size = UDim2.new(0, 100, 0, 20)
 
 BT2.MouseButton1Down:connect(function()
 sound:Play()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/KASPLOIT/Neko/main/Maid"))()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: Script Loaded!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 wait()
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
 if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
@@ -294,11 +288,7 @@ v.Velocity = Vector3.new(-30,0,0)
 end)
 end
 end
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[DEXWARE]: Script Loaded!",
-Color = Color3.fromRGB(250, 250, 160),
-TextSize = 20,
-});
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/KASPLOIT/Neko/main/Maid"))()
 end)
 
 local C3 = C2:Clone()
