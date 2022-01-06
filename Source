@@ -422,6 +422,11 @@ BT6.Size = UDim2.new(0, 100, 0, 20)
 
 BT6.MouseButton1Down:connect(function()
 sound:Play()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: Script Loaded!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 local LOFI = Instance.new("Sound")
 LOFI.Name = "LO:FI"
 LOFI.Volume = 1
@@ -432,11 +437,6 @@ LOFI:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
 LOFI:Destroy()
 end)
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[DEXWARE]: Script Loaded!",
-Color = Color3.fromRGB(250, 250, 160),
-TextSize = 20,
-});
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoScripter/FeCloud/main/Source", true))()
 end)
 
