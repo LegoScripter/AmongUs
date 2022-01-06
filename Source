@@ -384,7 +384,7 @@ end)
 local C5 = C4:Clone()
 C5.Name = "Script5"
 C5.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.JumpLabel.Text = "INTERNAL EXECUTOR"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.JumpLabel.Text = "FE CHILD ENJOYER (HAT NEEDED)"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, -1000)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
@@ -404,6 +404,32 @@ Text = "[DEXWARE]: Script Loaded!",
 Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoScripter/ChildEnjoyerScript/main/Source", true))()
+end)
+
+local C6 = C5:Clone()
+C6.Name = "Script6"
+C6.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.JumpLabel.Text = "INTERNAL EXECUTOR"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, -1206)
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
+
+local BT6 = Instance.new("TextButton")
+BT6.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump
+BT6.Position = UDim2.new(0, 155, 0, 10)
+BT6.Text = ""
+BT6.BackgroundTransparency = 1
+BT6.Size = UDim2.new(0, 100, 0, 20)
+
+
+BT6.MouseButton1Down:connect(function()
+sound:Play()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[DEXWARE]: Script Loaded!",
+Color = Color3.fromRGB(250, 250, 160),
+TextSize = 20,
+});
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 Text = "[DEXWARE]: Alt To Open And Close!",
 Color = Color3.fromRGB(250, 250, 160),
@@ -411,6 +437,7 @@ TextSize = 20,
 });
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoScripter/DexClient/main/Client", true))()
 end)
+
 --]]
 else
 print'Loading!'
