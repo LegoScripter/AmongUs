@@ -399,7 +399,7 @@ sound.SoundId = "rbxassetid://3777427220"
 sound.Parent = workspace
 sound:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
-sound:Stop()
+sound:Destroy()
 end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoScripter/ChildEnjoyerScript/main/Source", true))()
 end)
@@ -422,6 +422,16 @@ BT6.Size = UDim2.new(0, 100, 0, 20)
 
 BT6.MouseButton1Down:connect(function()
 sound:Play()
+local LOFI = Instance.new("Sound")
+LOFI.Name = "LO:FI"
+LOFI.Volume = 1
+LOFI.Looped = true
+LOFI.SoundId = "rbxassetid://6450921698"
+LOFI.Parent = workspace
+LOFI:Play()
+game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
+LOFI:Destroy()
+end)
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 Text = "[DEXWARE]: Script Loaded!",
 Color = Color3.fromRGB(250, 250, 160),
