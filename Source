@@ -1,3 +1,4 @@
+
 if _G.EXECUTED == true then
 print'Whitelisted!'
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -468,10 +469,20 @@ end)
 --]]
 else
 print'Loading!'
-_G.EXECUTED = true;
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 Text = "[DEXWARE]: Press ESC And Goto REPORT Page And HELP Page To The Script Works! After Re Execute.",
 Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
+while wait() do
+local Check1 = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame
+if Check1:FindFirstChild("ReportAbusePage") and Check1:FindFirstChild("Help") then
+_G.XD = true
+else
+_G.XD = false
+end
+if _G.XD == true then
+_G.EXECUTED = true;
+end
+end
 end
