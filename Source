@@ -44,15 +44,14 @@ BT.Text = ""
 BT.BackgroundTransparency = 1
 BT.Size = UDim2.new(0, 100, 0, 20)
 
-local Title = Instance.new("TextLabel")
-Title.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.HubBar.ReportAbuseTab.Icon
-Title.Position = UDim2.new(0, -25, 0, 10)
-Title.Text = "D"
-Title.TextColor3 = Color3.fromRGB(250, 250, 250)
-Title.TextSize = 30.00
-Title.BackgroundTransparency = 1
-Title.Size = UDim2.new(0, 100, 0, 20)
-
+local Icon = Instance.new("ImageLabel")
+Icon.Name = "D"
+Icon.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.HubBar.ReportAbuseTab.Icon
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BackgroundTransparency = 1.000
+Icon.Position = UDim2.new(-0.1, 1, 0, 1)
+Icon.Size = UDim2.new(0, 50, 0, 50)
+Icon.Image = "http://www.roblox.com/asset/?id=8471014806"
 
 BT.MouseButton1Down:connect(function()
 sound:Play()
