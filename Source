@@ -32,7 +32,7 @@ game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["ActionInputBindingMove Left"]:Destroy()
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["ActionInputBindingMove Right"]:Destroy()
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]["PCGroupTitleCharacter Movement"]:Destroy()
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.JumpLabel.Text = "CAR (HAT NEEDED)"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.JumpLabel.Text = "CAR"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, 26)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
@@ -320,7 +320,7 @@ end)
 local C4 = C3:Clone()
 C4.Name = "Script4"
 C4.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script4"].ActionInputBindingJump.JumpLabel.Text = "SNIPER (HAT NEEDED)"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script4"].ActionInputBindingJump.JumpLabel.Text = "SNIPER"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script4"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script4"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, -938)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script4"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
@@ -350,7 +350,7 @@ end)
 local C5 = C4:Clone()
 C5.Name = "Script5"
 C5.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.JumpLabel.Text = "CHILD ENJOYER (HAT NEEDED)"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.JumpLabel.Text = "CHILD ENJOYER"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, -1142)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script5"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
@@ -386,7 +386,7 @@ end)
 local C6 = C5:Clone()
 C6.Name = "Script6"
 C6.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.JumpLabel.Text = "CLOUD (HAT NEEDED)"
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.JumpLabel.Text = "CLOUD"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.Position = UDim2.new(0, -270, 0, -1345)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script6"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
