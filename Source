@@ -463,7 +463,7 @@ HATS.Position = UDim2.new(0, -180, 0, -7)
 local NoHat = HATS:Clone()
 NoHat.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]
 NoHat.Text = "SCRIPTS"
-NoHat.Position = UDim2.new(0, 370, 0, -7)
+NoHat.Position = UDim2.new(0, 375, 0, -7)
 
 local Idk = NoHat:Clone()
 Idk.Parent = game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["PCGroupFrameCharacter Movement"]
