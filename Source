@@ -75,7 +75,7 @@ game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer
 ]]
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script1"].ActionInputBindingJump.JumpLabel.Text = "SONIC"
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script1"].ActionInputBindingJump.SpaceLabel.Text = "EXECUTE"
-game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script1"].ActionInputBindingJump.Position = UDim2.new(0, 280, 0, -180)
+game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script1"].ActionInputBindingJump.Position = UDim2.new(0, 280, 0, -179)
 game:GetService("CoreGui").RobloxGui.SettingsShield.SettingsShield.MenuContainer.PageViewClipper.PageView.PageViewInnerFrame.ReportAbusePage["Script1"].ActionInputBindingJump.SpaceLabel.Position = UDim2.new(0, 175, 0, 0)
 
 local BT1 = Instance.new("TextButton")
