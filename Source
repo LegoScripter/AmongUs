@@ -371,15 +371,12 @@ Text = "[DEXWARE]: Script Loaded!",
 Color = Color3.fromRGB(250, 250, 160),
 TextSize = 20,
 });
-if game.Players.LocalPlayer.Character.Head:FindFirstChild("ChildrenAbuse") then
-game.Players.LocalPlayer.Character.Head.ChildrenAbuse:Destroy()
-end
 local sound = Instance.new("Sound")
 sound.Name = "ChildrenAbuse"
 sound.Volume = 1
 sound.Looped = true
 sound.SoundId = "rbxassetid://3777427220"
-sound.Parent = game.Players.LocalPlayer.Character.Head
+sound.Parent = workspace
 sound:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
 sound:Destroy()
@@ -418,7 +415,7 @@ LOFI.Name = "LOFI"
 LOFI.Volume = 1
 LOFI.Looped = true
 LOFI.SoundId = "rbxassetid://6450921698"
-LOFI.Parent = game.Players.LocalPlayer.Character.Head
+LOFI.Parent = workspace
 LOFI:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
 LOFI:Destroy()
