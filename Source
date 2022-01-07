@@ -100,22 +100,7 @@ local Core = game:GetService("CoreGui")
 local LocalPlayer = Playr.LocalPlayer
 local Humanoid = LocalPlayer.Character.Humanoid
 
-if Humanoid.RigType == Enum.HumanoidRigType.R15 then
---[[
-getgenv().Nullware_ReanimateConfiguration = {
-	["Netless"] = true, --Toggles Netless.
-	["Anti-Fling"] = false, --Toggles Anti-Fling.
-	["Hats To Align"] = {}, --List of hats that you want to align. (e.g. {"Hat1", "Hat2"} or {"All"})
-	["Head Movement Without Godmode"] = false, --Toggles Head Movement Without Godmode.
-	["Enable Limb Collisions"] = false, --Enables your limb's collisions. (Overrides "Disable Torso Collisions" if enabled, also doesn't require godmode)
-	["Disable Torso Collisions"] = false, --Disables your torso's collisions. (Doesn't work with godmode)
-	["R15 To R6"] = true, --Toggles R15 To R6.
-	["Godmode"] = true --Toggles Godmode.
-}
-loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/8cd532018277ee9982433eea25a6c14f/raw/sewMjTpJvVBLR96L"))()
-wait()
-]]
-else
+
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
 if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
 game:GetService("RunService").Heartbeat:connect(function()
@@ -123,7 +108,7 @@ v.Velocity = Vector3.new(-30,0,0)
 end)
 end
 end
-end
+
 
 
 local Fling = true --// Recommended: true
@@ -391,7 +376,7 @@ sound.Name = "ChildrenAbuse"
 sound.Volume = 1
 sound.Looped = true
 sound.SoundId = "rbxassetid://3777427220"
-sound.Parent = workspace
+sound.Parent = game.Players.LocalPlayer.Character.Head
 sound:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
 sound:Destroy()
@@ -427,7 +412,7 @@ LOFI.Name = "LO:FI"
 LOFI.Volume = 1
 LOFI.Looped = true
 LOFI.SoundId = "rbxassetid://6450921698"
-LOFI.Parent = workspace
+LOFI.Parent = game.Players.LocalPlayer.Character.Head
 LOFI:Play()
 game.Players.LocalPlayer.Character.Humanoid.Died:connect(function()
 LOFI:Destroy()
